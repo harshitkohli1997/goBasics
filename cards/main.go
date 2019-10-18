@@ -10,7 +10,12 @@ func main() {
 	cards := deck{"HEY", newCard(), "DUDE"}
 
 	cards = append(cards, "DU")
-	cards.print()
+	//cards.print()
+
+	hand, remaining := deal(cards, 2)
+	hand.print()
+	remaining.print()
+
 	// for i, card := range cards {
 	// 	fmt.Println(i, card)
 	// }
