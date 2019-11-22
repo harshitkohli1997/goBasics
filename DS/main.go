@@ -16,10 +16,11 @@ type person struct {
 
 func main() {
 	hk := person{firstName: "HK"}
-	fmt.Println(hk)
+	fmt.Println("dasda", hk)
 	hkptr := &hk
 	hk.contact.add = "dilshad garden"
-
+	//var test string = "hk"
+	testMap()
 	hk.print()
 	hkptr.update("DUDE")
 	hk.print()

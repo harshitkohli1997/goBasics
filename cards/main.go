@@ -1,10 +1,12 @@
 package main
 
+import "fmt"
+
 func main() {
 	//var card string = "Ace os Spaded"
-	//card := "Ace of Spades" // only for defining
+	card := "Ace of Spades" // only for defining
 	// card := newCard()
-	// fmt.Println(card)
+	fmt.Println(card)
 	//fmt.Println("hey")
 
 	cards := deck{"xyz", newCard(), "zzz"}
